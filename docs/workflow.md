@@ -177,3 +177,31 @@ python -m py_compile target_shortlist.py triage.py verify\harness.py
 See the [repository overview](../README.md) for the public contents. Local target
 clones, scanner reports, private evidence, virtual environments, and environment
 files are excluded by `.gitignore`.
+
+## Public files and research evidence
+
+| File or directory | Role |
+|---|---|
+| `target_shortlist.py` | Project discovery, existing advisory history, and heuristic ranking |
+| `triage.py` | Installed-scanner orchestration and unverified-lead worksheets |
+| `verify/` | Local HTTP observation helpers, Compose example, and report template |
+| `disclosure_tracker.md` | Empty template; keep populated copies in `private-results/` |
+| `tests/` | 10 unit tests covering selected supporting-script behavior |
+| `python-auth.*`, `node-cms.*`, `php-upload.*` | Historical shortlist snapshots from September 3, 2026 |
+
+The shortlist snapshots are examples of discovery output, not current
+recommendations or additional confirmed findings. Their CVE counts describe
+other projects' existing advisory histories at collection time.
+
+The case study reports historical target-specific observations and test results.
+Private correspondence, target-specific reproduction tests, candidate patches,
+and scanner reports are excluded. Running the public unit tests does not
+reproduce the django CMS flaw or rerun its target-specific regression tests.
+
+## Advisory identifiers
+
+A vulnerability is the underlying security flaw. A GitHub Security Advisory
+documents an issue under a `GHSA-...` identifier. A CVE ID is a separate
+identifier that may be assigned to the same issue. Record the identifiers
+actually published by the maintainer; advisory publication does not establish
+that a CVE has been assigned.
