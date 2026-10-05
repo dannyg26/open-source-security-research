@@ -67,4 +67,5 @@ Actual result:
 
 - Contact:
 - Preferred credit:
-- CVE attribution preference:
+- Advisory credit preference:
+- CVE attribution preference (if a CVE is assigned):

@@ -1,5 +1,9 @@
 # Target shortlist
 
+Historical discovery output from September 3, 2026. These entries are projects
+considered for review, not confirmed findings. Prior CVEs describe their public
+advisory histories at collection time, not CVEs discovered by this project.
+
 Generated: 2026-09-03T18:41:02.398169+00:00
 
 GitHub query: `cms in:name,description,topics language:JavaScript stars:1000..20000 pushed:>=2026-03-04 archived:false fork:false is:public`

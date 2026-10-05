@@ -1,12 +1,24 @@
-# django CMS cross-placeholder authorization bypass
+# django CMS authorization flaw: a coordinated-disclosure case study
 
 - **Advisory:** [GHSA-79vf-xh44-8cpm](https://github.com/django-cms/django-cms/security/advisories/GHSA-79vf-xh44-8cpm)
 - **Reporter:** [Danny Galvis (`dannyg26`)](https://github.com/dannyg26)
 - **Published:** September 24, 2026
 - **Severity:** Moderate, CVSS 3.1 score 5.5
-- **Affected lineage:** the flaw existed from django CMS 3.0; the advisory lists the supported affected 5.x ranges
+- **Affected supported ranges:** `>= 5.0.0, < 5.0.12` and `>= 5.1.0, < 5.1.3`; the maintainer also reports the flaw existed from 3.0
 - **Fixed:** 5.0.12 and 5.1.3
-- **CVE:** None assigned as of publication
+- **CVE:** No CVE ID listed in the advisory as of October 5, 2026
+
+This case study records a confirmed vulnerability published under a GitHub
+Security Advisory identifier. It does not claim a CVE assignment. The
+[upstream advisory](https://github.com/django-cms/django-cms/security/advisories/GHSA-79vf-xh44-8cpm)
+is the public source for affected versions, severity, impact, and reporter credit.
+
+## Terms used below
+
+- **Plugin:** a django CMS content block, which may contain other blocks.
+- **Placeholder:** a content area holding a plugin tree.
+- **Parent:** the containing plugin referenced by a child plugin.
+- **Authorization:** checking that the editor is allowed to access or change each referenced object.
 
 ## Executive summary
 
@@ -64,6 +76,11 @@ the 31 neighboring placeholder-admin tests passed.
 
 No public django CMS deployment was accessed or tested.
 
+These are historical research observations. The target-specific tests and
+candidate patch remain in private research material and are not included here.
+The public `tests/` suite checks the supporting scripts; it does not reproduce
+this finding or run the 31 django CMS tests mentioned above.
+
 ## Impact and limits
 
 The confirmed impact was:
@@ -93,7 +110,7 @@ same cross-placeholder relationship without the permission bypass.
 The project published django CMS 5.0.12 and 5.1.3 together with
 GHSA-79vf-xh44-8cpm on September 24, 2026. Unsupported pre-5.0 lines remain
 affected and should be upgraded. The advisory did not have a CVE ID at
-publication.
+publication, and still lists no CVE ID as of October 5, 2026.
 
 ## Lessons
 
