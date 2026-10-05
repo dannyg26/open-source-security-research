@@ -1,0 +1,20 @@
+.venv/
+.target-venv/
+__pycache__/
+*.py[cod]
+reports/
+private-results/
+shortlist.md
+shortlist.json
+.env
+.env.*
+!.env.example
+
+# Local third-party source trees and research artifacts
+targets/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

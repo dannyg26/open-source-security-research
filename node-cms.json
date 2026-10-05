@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-09-03T18:41:02.398169+00:00",
+  "query": "cms in:name,description,topics language:JavaScript stars:1000..20000 pushed:>=2026-03-04 archived:false fork:false is:public",
+  "candidates": [
+    {
+      "repository": "mediacms-io/mediacms",
+      "url": "https://github.com/mediacms-io/mediacms",
+      "stars": 5093,
+      "forks": 953,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 144,
+      "pushed_at": "2026-08-25T13:49:34Z",
+      "language": "JavaScript",
+      "description": "MediaCMS is a modern, fully featured open source video and media CMS, written in Python/Django and React, featuring a REST API.",
+      "license": "AGPL-3.0",
+      "has_security_policy": true,
+      "security_policy_url": "https://github.com/mediacms-io/mediacms/blob/HEAD/SECURITY.md",
+      "package": {
+        "ecosystem": "npm",
+        "name": "mediacms",
+        "source": "package.json"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 0,
+        "cves": 0,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 29.97,
+        "maintenance_25": 23.74,
+        "disclosure_15": 15.0,
+        "under_review_15": 14.97,
+        "health_10": 10.0
+      },
+      "score": 93.68
+    },
+    {
+      "repository": "decaporg/decap-cms",
+      "url": "https://github.com/decaporg/decap-cms",
+      "stars": 19340,
+      "forks": 3125,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 590,
+      "pushed_at": "2026-09-03T14:09:42Z",
+      "language": "JavaScript",
+      "description": "A Git-based CMS for Static Site Generators",
+      "license": "MIT",
+      "has_security_policy": true,
+      "security_policy_url": "https://github.com/decaporg/decap-cms/blob/HEAD/SECURITY.md",
+      "package": null,
+      "osv": {
+        "status": "unknown",
+        "advisories": null,
+        "cves": null,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 35.0,
+        "maintenance_25": 24.97,
+        "disclosure_15": 15.0,
+        "under_review_15": 7.5,
+        "health_10": 10.0
+      },
+      "score": 92.47
+    },
+    {
+      "repository": "doramart/DoraCMS",
+      "url": "https://github.com/doramart/DoraCMS",
+      "stars": 3542,
+      "forks": 1033,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 26,
+      "pushed_at": "2026-07-12T05:15:46Z",
+      "language": "JavaScript",
+      "description": "DoraCMS \u662f\u4e00\u4e2a\u57fa\u4e8e EggJS 3.x + Vue 3 + TypeScript \u7684\u73b0\u4ee3\u5316\u5185\u5bb9\u7ba1\u7406\u7cfb\u7edf\uff0c\u91c7\u7528 pnpm monorepo \u67b6\u6784\u7ba1\u7406\u3002\u5b83\u4e0d\u4ec5\u4ec5\u662f\u4e00\u4e2a CMS \u7cfb\u7edf\uff0c\u66f4\u662f\u4e00\u4e2a\u4f18\u79c0\u7684\u4f01\u4e1a\u7ea7\u5e94\u7528\u67b6\u6784\u5b9e\u8df5\u3002",
+      "license": "MIT",
+      "has_security_policy": true,
+      "security_policy_url": "https://github.com/doramart/DoraCMS/blob/HEAD/SECURITY.md",
+      "package": {
+        "ecosystem": "npm",
+        "name": "egg-cms",
+        "source": "package.json"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 0,
+        "cves": 0,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 29.83,
+        "maintenance_25": 17.68,
+        "disclosure_15": 15.0,
+        "under_review_15": 15.0,
+        "health_10": 8.8
+      },
+      "score": 86.31
+    },
+    {
+      "repository": "apostrophecms/apostrophe",
+      "url": "https://github.com/apostrophecms/apostrophe",
+      "stars": 4613,
+      "forks": 649,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 136,
+      "pushed_at": "2026-09-03T17:57:43Z",
+      "language": "JavaScript",
+      "description": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment.",
+      "license": null,
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": {
+        "ecosystem": "npm",
+        "name": "@apostrophecms",
+        "source": "package.json"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 0,
+        "cves": 0,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 28.69,
+        "maintenance_25": 25.0,
+        "disclosure_15": 0.0,
+        "under_review_15": 10.9,
+        "health_10": 5.0
+      },
+      "score": 69.59
+    },
+    {
+      "repository": "logamee/lin-cms-vue",
+      "url": "https://github.com/logamee/lin-cms-vue",
+      "stars": 2839,
+      "forks": 652,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 73,
+      "pushed_at": "2026-05-04T14:00:47Z",
+      "language": "JavaScript",
+      "description": " \ud83d\udd06 Vue+ElementPlus\u6784\u5efa\u7684CMS\u5f00\u53d1\u6846\u67b6",
+      "license": "MIT",
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": {
+        "ecosystem": "npm",
+        "name": "lin-cms-vue",
+        "source": "package.json"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 0,
+        "cves": 0,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 28.19,
+        "maintenance_25": 8.31,
+        "disclosure_15": 0.0,
+        "under_review_15": 9.84,
+        "health_10": 10.0
+      },
+      "score": 56.34
+    }
+  ]
+}

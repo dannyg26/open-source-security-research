@@ -1,0 +1,203 @@
+{
+  "generated_at": "2026-09-03T18:41:40.512033+00:00",
+  "query": "auth in:name,description,topics language:Python stars:1000..20000 pushed:>=2026-03-04 archived:false fork:false is:public",
+  "candidates": [
+    {
+      "repository": "authlib/authlib",
+      "url": "https://github.com/authlib/authlib",
+      "stars": 5410,
+      "forks": 561,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 142,
+      "pushed_at": "2026-08-31T08:08:29Z",
+      "language": "Python",
+      "description": "The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS, JWE, JWK, JWA, JWT included.",
+      "license": "BSD-3-Clause",
+      "has_security_policy": true,
+      "security_policy_url": "https://github.com/authlib/authlib/blob/HEAD/.github/SECURITY.md",
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "Authlib",
+        "source": "pyproject.toml"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 24,
+        "cves": 12,
+        "ids": [
+          "GHSA-5357-c2jx-v7qh",
+          "GHSA-7432-952r-cw78",
+          "GHSA-7wc2-qxgw-g8gg",
+          "GHSA-9ggr-2464-2j32",
+          "GHSA-fg6f-75jq-6523",
+          "GHSA-g7f3-828f-7h7m",
+          "GHSA-jj8c-mmj3-mmgv",
+          "GHSA-m344-f55w-2m6j",
+          "GHSA-pq5p-34cr-23v9",
+          "GHSA-r95x-qfjj-fjj2",
+          "GHSA-w8p2-r796-3vmq",
+          "GHSA-wvwj-cvrp-7pv5",
+          "PYSEC-2024-52",
+          "PYSEC-2026-1200",
+          "PYSEC-2026-1201",
+          "PYSEC-2026-1202",
+          "PYSEC-2026-1203",
+          "PYSEC-2026-188",
+          "PYSEC-2026-2116",
+          "PYSEC-2026-2117",
+          "PYSEC-2026-2118",
+          "PYSEC-2026-2119",
+          "PYSEC-2026-25",
+          "PYSEC-2026-287"
+        ]
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 34.3,
+        "maintenance_25": 24.53,
+        "disclosure_15": 15.0,
+        "under_review_15": 0.6,
+        "health_10": 10.0
+      },
+      "score": 84.43
+    },
+    {
+      "repository": "Sophomoresty/gemini-web2api",
+      "url": "https://github.com/Sophomoresty/gemini-web2api",
+      "stars": 3083,
+      "forks": 676,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 10,
+      "pushed_at": "2026-08-14T18:29:19Z",
+      "language": "Python",
+      "description": "Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file.",
+      "license": "MIT",
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "gemini-web2api",
+        "source": "pyproject.toml"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 0,
+        "cves": 0,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 34.31,
+        "maintenance_25": 22.27,
+        "disclosure_15": 0.0,
+        "under_review_15": 15.0,
+        "health_10": 8.0
+      },
+      "score": 79.58
+    },
+    {
+      "repository": "supabase/supabase-py",
+      "url": "https://github.com/supabase/supabase-py",
+      "stars": 2575,
+      "forks": 542,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 56,
+      "pushed_at": "2026-09-03T09:59:16Z",
+      "language": "Python",
+      "description": "Python Client for Supabase. Query Postgres from Flask, Django, FastAPI. Python user authentication, security policies, edge functions, file storage, and realtime data streaming. Good first issue.",
+      "license": "MIT",
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": null,
+      "osv": {
+        "status": "unknown",
+        "advisories": null,
+        "cves": null,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 33.26,
+        "maintenance_25": 24.95,
+        "disclosure_15": 0.0,
+        "under_review_15": 7.5,
+        "health_10": 10.0
+      },
+      "score": 75.71
+    },
+    {
+      "repository": "python-social-auth/social-app-django",
+      "url": "https://github.com/python-social-auth/social-app-django",
+      "stars": 2143,
+      "forks": 392,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 32,
+      "pushed_at": "2026-09-03T11:16:10Z",
+      "language": "Python",
+      "description": "Python Social Auth - Application - Django",
+      "license": "BSD-3-Clause",
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "social-auth-app-django",
+        "source": "pyproject.toml"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 4,
+        "cves": 2,
+        "ids": [
+          "GHSA-2gr8-3wc7-xhj3",
+          "GHSA-wv4w-6qv2-qqfg",
+          "PYSEC-2026-1931",
+          "PYSEC-2026-1932"
+        ]
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 31.82,
+        "maintenance_25": 24.96,
+        "disclosure_15": 0.0,
+        "under_review_15": 1.8,
+        "health_10": 9.1
+      },
+      "score": 67.68
+    },
+    {
+      "repository": "mkhorasani/Streamlit-Authenticator",
+      "url": "https://github.com/mkhorasani/Streamlit-Authenticator",
+      "stars": 2082,
+      "forks": 289,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 59,
+      "pushed_at": "2026-07-01T20:53:27Z",
+      "language": "Python",
+      "description": "A secure authentication module to manage user access in a Streamlit application.",
+      "license": "MIT",
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": null,
+      "osv": {
+        "status": "unknown",
+        "advisories": null,
+        "cves": null,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 30.65,
+        "maintenance_25": 16.27,
+        "disclosure_15": 0.0,
+        "under_review_15": 7.5,
+        "health_10": 10.0
+      },
+      "score": 64.42
+    }
+  ]
+}

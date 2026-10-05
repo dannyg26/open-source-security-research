@@ -1,0 +1,24 @@
+name: vuln-research-local
+
+# Copy this file into the selected target clone and adapt it to that project's
+# documented build command, environment, healthcheck, and container port.
+services:
+  target:
+    build:
+      context: ${TARGET_PATH:-.}
+    ports:
+      - "127.0.0.1:${TARGET_PORT:-8080}:${CONTAINER_PORT:-8080}"
+    networks:
+      - isolated
+    restart: "no"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+networks:
+  isolated:
+    internal: true

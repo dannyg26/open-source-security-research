@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-09-03T18:41:15.660663+00:00",
+  "query": "file upload in:name,description,topics language:PHP stars:1000..20000 pushed:>=2026-03-04 archived:false fork:false is:public",
+  "candidates": [
+    {
+      "repository": "UniSharp/laravel-filemanager",
+      "url": "https://github.com/UniSharp/laravel-filemanager",
+      "stars": 2148,
+      "forks": 732,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 217,
+      "pushed_at": "2026-08-09T13:03:24Z",
+      "language": "PHP",
+      "description": "Media gallery with CKEditor, TinyMCE and Summernote support. Built on Laravel file system.",
+      "license": "MIT",
+      "has_security_policy": true,
+      "security_policy_url": "https://github.com/UniSharp/laravel-filemanager/blob/HEAD/docs/security.md",
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "unisharp/laravel-filemanager",
+        "source": "composer.json"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 3,
+        "cves": 3,
+        "ids": [
+          "GHSA-5m2h-7rf2-rpx6",
+          "GHSA-6569-3785-r3v6",
+          "GHSA-f8x6-m9f5-ffp8"
+        ]
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 32.31,
+        "maintenance_25": 21.55,
+        "disclosure_15": 15.0,
+        "under_review_15": 5.11,
+        "health_10": 10.0
+      },
+      "score": 83.97
+    },
+    {
+      "repository": "dustin10/VichUploaderBundle",
+      "url": "https://github.com/dustin10/VichUploaderBundle",
+      "stars": 1908,
+      "forks": 521,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 50,
+      "pushed_at": "2026-08-20T07:28:37Z",
+      "language": "PHP",
+      "description": "A simple Symfony bundle to ease file uploads with ORM entities and ODM documents.",
+      "license": "MIT",
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "vich/uploader-bundle",
+        "source": "composer.json"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 0,
+        "cves": 0,
+        "ids": []
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 30.98,
+        "maintenance_25": 23.02,
+        "disclosure_15": 0.0,
+        "under_review_15": 15.0,
+        "health_10": 10.0
+      },
+      "score": 79.0
+    },
+    {
+      "repository": "spatie/laravel-medialibrary",
+      "url": "https://github.com/spatie/laravel-medialibrary",
+      "stars": 6163,
+      "forks": 1100,
+      "dependents": null,
+      "dependents_status": "not available from GitHub public REST API",
+      "open_issues": 1,
+      "pushed_at": "2026-09-03T13:55:03Z",
+      "language": "PHP",
+      "description": "Associate files with Eloquent models",
+      "license": "MIT",
+      "has_security_policy": false,
+      "security_policy_url": null,
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "spatie/laravel-medialibrary",
+        "source": "composer.json"
+      },
+      "osv": {
+        "status": "known",
+        "advisories": 2,
+        "cves": 2,
+        "ids": [
+          "GHSA-3ggm-c5m7-hfv5",
+          "GHSA-fggg-964j-3j7h"
+        ]
+      },
+      "enrichment_error": null,
+      "score_components": {
+        "adoption_35": 35.0,
+        "maintenance_25": 24.97,
+        "disclosure_15": 0.0,
+        "under_review_15": 11.42,
+        "health_10": 7.55
+      },
+      "score": 78.94
+    }
+  ]
+}
